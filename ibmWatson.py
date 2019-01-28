@@ -1,15 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jan  3 14:15:46 2019
-
-@author: hp
-"""
 #import json
 def ibms(tweet):
     from watson_developer_cloud import ToneAnalyzerV3
     
     tone_analyzer = ToneAnalyzerV3(
-            iam_apikey = 'cG_v7eEE9EPWA1KiFAknHeOpkK0s-pjv2QMAN6nGPQSX',
+            iam_apikey = '#####################################',
             version = '2017-09-21',
             url = 'https://gateway-lon.watsonplatform.net/tone-analyzer/api'
             )
