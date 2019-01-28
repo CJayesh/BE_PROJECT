@@ -1,22 +1,13 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan  2 23:47:24 2019
-
-@author: hp
-"""
-
-#####################################################################
-#Twitter
 def proceed(t_id):
     import tweepy 
     from ibmWatson import ibms
     from grphy import gplot
     # Fill the X's with the credentials obtained by  
     # following the above mentioned procedure. 
-    consumer_key = "AK2gnrwBqTsPzaZV4WpoDVMo4" 
-    consumer_secret = "5kNUx2iU2ZCbkH8aZafL5uE3OFTEBvPhrRLOega9llUgkzlTeF"
-    access_key = "1080507728588529664-3dIcQ9NI8cG8VwZHmLWhF1BGIYuxw7"
-    access_secret = "hTrrGr36FgfRQHidFUFMHiEIfMUTxMAExXoBmmi7ZQ1OQ"
+    consumer_key = "##############################" 
+    consumer_secret = "################################"
+    access_key = "#######################################"
+    access_secret = "########################################"
       
     # extract tweets 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -64,38 +55,3 @@ def proceed(t_id):
     gplot(em_int)
 
     return dict(zip(toa,emotion))
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
