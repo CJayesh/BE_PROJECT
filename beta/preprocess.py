@@ -20,7 +20,7 @@ def pp(tweet):
     
     
     
-#pp("hi i'm jayesh @cj http://www.cj.com #YOLO 9167................ get out.")
+#pp("tweet as param")
 '''
 ds = pd.read_csv('dataset.csv')
 tweets = ds.content
